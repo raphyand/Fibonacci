@@ -54,9 +54,10 @@ namespace Fib
             // Memoized solutuion - O(n) Complexity
             public int Memoized(int n){
 
+                // Final Result
                 int result = 0;
 
-                // 
+                // Check if Dictionary has our number key
                 if (memo.ContainsKey(n)){
                     return memo[n];
                 }
